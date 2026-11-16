@@ -1,0 +1,34 @@
+[project]
+name = "na3ps4-strain-glass-xpcs"
+version = "0.1.0"
+description = "Project: Source code and notebooks used to analayze and make figures for the publication Strain-glass dynamics in the superionic conductor Na3PS4 arXiv preprint arXiv:2611.04547. Author: Erik Scott Lamb, PhD. Institution: UC San Diego, Department of Physics."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "colorspacious>=1.1.2",
+    "google-auth-httplib2>=0.4.2",
+    "gspread>=6.2.1",
+    "h5py>=3.16.0",
+    "hdf5plugin>=7.0.0",
+    "httplib2>=0.32.0",
+    "ipympl>=0.10.0",
+    "ipywidgets>=8.1.8",
+    "lmfit>=1.3.4",
+    "matplotlib>=3.11.1",
+    "napari[optional,pyqt6]>=0.6.5",
+    "numpy>=2.5.1",
+    "opencv-python>=5.0.0.93",
+    "pandas>=3.0.3",
+    "pathlib>=1.0.1",
+    "pyopencl>=2026.1.2",
+    "pyvista>=0.49.0",
+    "scikit-image>=0.26.0",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.18.0",
+    "tqdm>=4.69.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
