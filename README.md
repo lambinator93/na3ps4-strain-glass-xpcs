@@ -31,7 +31,7 @@ or select `.venv` as the kernel in VS Code.
 
 ## Configuration
 
-All paths are set in `configs/config_NPS_2_data_090825.json`:
+All paths are set in `configs/config_NPS_example.json`:
 
 | Key | Meaning |
 | --- | --- |
